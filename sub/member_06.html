@@ -57,9 +57,9 @@
             <h4 class="tit">연락처</h4>
 
             <form class="txt_form nomargin">
-              <input type="text" class="txt_box" placeholder="010" required>
-              <input type="text" class="txt_box" placeholder="XXXX" required>
-              <input type="text" class="txt_box" placeholder="XXXX" required>
+              <input type="search" class="txt_box" placeholder="010" oninput='handleOnInput(this, 3)' required>
+              <input type="search" class="txt_box" placeholder="XXXX" oninput='handleOnInput(this, 4)' required>
+              <input type="search" class="txt_box" placeholder="XXXX" oninput='handleOnInput(this, 4)'  required>
             </form>
           </li>
 
@@ -68,7 +68,7 @@
             <h4 class="tit">인증번호</h4>
             <button class="btn_authn">인증번호 받기</button>
             <form class="txt_form authn nomargin">
-              <input class="txt_box" type="text" placeholder="인증번호받기" required>
+              <input class="txt_box" type="search" placeholder="인증번호받기" required>
               <button class="btn_authn">재전송</button>
             </form>
           </li>
